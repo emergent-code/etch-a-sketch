@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-sketch</title>
+    <script src = "etch-script.js" defer></script>
+    <link rel = "stylesheet" href = "etch-style.css"></style>
+</head>
+<body>
+    <h1>Etch-a-sketch</h1>
+    <div id = "main">
+    <div class="control">
+        <div id="colourDisplay"></div>
+        <div id="colourPicker">Colour picker
+          <div id="colourGrid"></div>
+        </div>
+        <div id="gridSizeToggle">Grid size (max. 100)
+          <input id="gridInput"><span id="autoSize"></span>
+          <button id="changeGrid">
+            Change
+          </button>
+        </div>
+        <div id="modeToggle">Modes
+        <button id = "normal">Normal</button>
+        <button id = "randomColours">Colour randomizer</button>
+        <button id = "clickMode">Click mode</button>
+        </div>
+        <ul id="removal">
+          <li><button id = "eraser">Eraser</button></li>
+          <li><button id = "clear">Clear</button></li>
+        </ul>
+      </div>
+      <div class="container"></div>
+    </div>
+</body>
+</html>
